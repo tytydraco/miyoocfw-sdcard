@@ -1,2 +1,3 @@
+cd /mnt
 ./retroarch
 poweroff
