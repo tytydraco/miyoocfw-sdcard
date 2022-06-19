@@ -36,6 +36,8 @@ if test "$EUID" -ne 0; then
   exit 1
 fi
 
+./update_retroarch.sh
+
 for prg in sfdisk mkdosfs mkfs.ext4; do
     if test -d $(${BB} which $prg 2> /dev/null); then
         msg "This script requires '${WARNCOLOR}$prg${MSGCOLOR}' program. Please get/install it and run again."
