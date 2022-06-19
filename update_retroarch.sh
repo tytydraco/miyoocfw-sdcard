@@ -7,7 +7,10 @@ wget "$RA_URL"
 7za x RetroArch.7z
 cd ..
 
+rm -rf main/.retroarch
 cp -ra ra_working/retroarch/.retroarch main/
+
+rm -f main/retroarch
 cp -ra ra_working/retroarch/emus/retroarch/retroarch main/
 
 rm -rf ra_working
