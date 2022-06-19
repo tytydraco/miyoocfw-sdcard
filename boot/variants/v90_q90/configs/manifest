@@ -4,6 +4,4 @@
 !   to_file is optional; if missing will use from_file
 .backlight.conf
 .volume.conf
-gmenu2x.conf gmenu2x/gmenu2x.conf
-input.conf gmenu2x/input.conf
 ! leave this last line here
